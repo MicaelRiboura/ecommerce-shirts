@@ -1,0 +1,36 @@
+section {
+    height: 648px;
+    background-image: url('../../../../assets/hero-bg.svg');
+    background-size: 100%;
+    background-position: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.hero-content {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-content h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hero-content .btn-shop {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0.5rem 2rem;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer ;
+}
