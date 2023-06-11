@@ -1,0 +1,49 @@
+footer {
+    background-color: #FBFBFB;
+    padding: 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.info-footer {
+    padding: 1.5rem;
+    border-top: 1px solid #E8E8E8;
+}
+
+.footer-link {
+    cursor: pointer;
+}
+
+.email-input {
+    padding: 0.5rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #1D1D1D;
+}
+
+.email-btn {
+    padding: 0.5rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.info-footer p, span {
+    font-family: 'Lato', sans-serif;
+    font-family: 400;
+    color: #1D1D1D;
+}
+
+.info-footer span {
+    margin: 0 0.5rem;
+}
